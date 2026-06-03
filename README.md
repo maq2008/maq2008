@@ -35,27 +35,19 @@ goal: Get paid to write code
 ## 🛠️ Tech Stack
 
 ### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+```
+Python    JavaScript    TypeScript    Bash    PowerShell
+```
 
 ### Frameworks & Tools
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
+```
+Django    React    Node.js    TailwindCSS    PySide6    Pillow
+```
 
 ### Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+```
+Git    GitHub    VS Code    Windows    Linux    Docker
+```
 
 ---
 
@@ -73,43 +65,24 @@ goal: Get paid to write code
 
 ---
 
-## 🏗️ Currently Building
-
-Following a **10-day build challenge** — one new tool per day.
-
-| Day | Project | Type |
-|-----|---------|------|
-| ✅ 0 | YukiMusic | Music player |
-| ✅ 6 | YukiTimer | Pomodoro timer |
-| 🔜 1 | YukiTasks | To-do app |
-| 🔜 2 | YukiSnippets | Snippet manager |
-| 🔜 3 | TaskFlow CLI | Terminal to-do |
-| 🔜 4 | WeatherNow CLI | Weather in terminal |
-| 🔜 5 | QuickImg | Image tool |
-| 🔜 7 | DevBio | README generator |
-| 🔜 8 | SubTracker | Subscription tracker |
-| 🔜 9 | OSS PR | Open source contribution |
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
 
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maq2008&theme=tokyonight" alt="" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maq2008&theme=radical" alt="" />
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maq2008&theme=tokyonight" alt="" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maq2008&theme=tokyonight" alt="" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maq2008&theme=radical" alt="" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maq2008&theme=radical" alt="" />
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maq2008&theme=tokyo-night&hide_border=true&area=true" alt="" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maq2008&theme=react-dark&hide_border=true&area=true" alt="" />
 
 </div>
 
@@ -119,9 +92,7 @@ Following a **10-day build challenge** — one new tool per day.
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maq2008)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/m.abdullah.exe)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maq2008@users.noreply.github.com)
+[GitHub](https://github.com/maq2008) | [Instagram](https://instagram.com/m.abdullah.exe) | [Email](mailto:maq2008@users.noreply.github.com)
 
 </div>
 
