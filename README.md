@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Vibe+Coder;Full-Stack+Freelancer;Building+Cool+Stuff;Code+Then+Get+Paid" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Self+Taught+Dev;Shipping+Fast+Daily;Night+Builder;Vibe+Coder" alt="Typing SVG" />
 
   <p>
     <img src="https://komarev.com/ghpvc/?username=maq2008&label=Profile%20Views&color=6E40C9&style=for-the-badge" alt="Profile Views" />
     <img src="https://img.shields.io/github/followers/maq2008?label=Followers&style=for-the-badge&color=6E40C9" alt="Followers" />
   </p>
 
-  <p><i>"Code with flow. Build with intent. Get paid with proof."</i></p>
+  <p><i>"Self-taught. Shipping fast. Building at night. One commit at a time."</i></p>
 
 </div>
 
@@ -18,17 +18,18 @@
 ```yaml
 name: Abdullah Qureshi
 handle: maq2008
-role: Vibe Coder & Full-Stack Freelancer
+role: Self-taught developer & indie builder
 location: Lahore, Pakistan 🇵🇰
 education: 2nd Year ICS
-current_focus: Vibe coding, freelancing, building paid tools
-goal: Get paid to write code
+focus: Web, AI, cybersecurity, desktop apps
+goal: Earn well by building things people actually use
 ```
 
-- 🎵 **Vibe coding purist** — I build cool stuff with flow
-- 💻 **Full-stack dev** — Django + React stack
-- 🚀 **Freelance hustler** — shipping projects for clients
-- 💸 **Money-focused** — Code → Build → Earn
+- 🎯 **Self-taught dev** — no degree, no bootcamp, just pure grind
+- 🌙 **Night builder** — that's when the real code happens
+- 🚀 **Ships fast** — one project a day, no excuses
+- 🧠 **Loves coding deeply** — not just for money, but because building is fun
+- 💼 **Future plans** — full-time freelancing, working for myself, no boss
 
 ---
 
