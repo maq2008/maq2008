@@ -73,32 +73,7 @@ goal: Get paid to write code
 
 ---
 
-## 🏗️ Currently Building
-
-Following a **10-day build challenge** — one new tool per day.
-
-| Day | Project | Type |
-|-----|---------|------|
-| ✅ 0 | YukiMusic | Music player |
-| ✅ 6 | YukiTimer | Pomodoro timer |
-| 🔜 1 | YukiTasks | To-do app |
-| 🔜 2 | YukiSnippets | Snippet manager |
-| 🔜 3 | TaskFlow CLI | Terminal to-do |
-| 🔜 4 | WeatherNow CLI | Weather in terminal |
-| 🔜 5 | QuickImg | Image tool |
-| 🔜 7 | DevBio | README generator |
-| 🔜 8 | SubTracker | Subscription tracker |
-| 🔜 9 | OSS PR | Open source contribution |
-
----
-
 ## 📊 GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maq2008&theme=tokyonight" alt="" />
-
-</div>
 
 <div align="center">
 
