@@ -17,17 +17,18 @@
 
 ```yaml
 name: Abdullah Qureshi
+handle: maq2008
 role: Vibe Coder & Full-Stack Freelancer
-location: Lahore, Pakistan
+location: Lahore, Pakistan 🇵🇰
 education: 2nd Year ICS
 current_focus: Vibe coding, freelancing, building paid tools
 goal: Get paid to write code
 ```
 
-- 🎵 Vibe coding purist — I build cool stuff with flow
-- 💻 Full-stack dev — Django + React stack
-- 🚀 Freelance hustler — shipping projects for clients
-- 💸 Money-focused — Code → Build → Earn
+- 🎵 **Vibe coding purist** — I build cool stuff with flow
+- 💻 **Full-stack dev** — Django + React stack
+- 🚀 **Freelance hustler** — shipping projects for clients
+- 💸 **Money-focused** — Code → Build → Earn
 
 ---
 
@@ -45,6 +46,8 @@ goal: Get paid to write code
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -62,10 +65,32 @@ goal: Get paid to write code
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, glassmorphism UI | PySide6, yt-dlp | ✅ Live |
-| **More coming soon** | Building cool stuff | Django, React | 🚧 In progress |
+| **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, animated ring UI | PySide6, yt-dlp | ✅ Live |
+| **[YukiTimer](https://github.com/maq2008/YukiTimer/releases/latest)** | Pomodoro timer with session tracking | PySide6, SQLite | ✅ Live |
+| **YukiTasks** | Desktop to-do with focus mode | PySide6 | 🚧 Coming soon |
+| **YukiSnippets** | Code snippet manager | PySide6 | 🚧 Coming soon |
+| **More projects** | 10-day build challenge | Various | 🚧 In progress |
 
 </div>
+
+---
+
+## 🏗️ Currently Building
+
+Following a **10-day build challenge** — one new tool per day.
+
+| Day | Project | Type |
+|-----|---------|------|
+| ✅ 0 | YukiMusic | Music player |
+| ✅ 6 | YukiTimer | Pomodoro timer |
+| 🔜 1 | YukiTasks | To-do app |
+| 🔜 2 | YukiSnippets | Snippet manager |
+| 🔜 3 | TaskFlow CLI | Terminal to-do |
+| 🔜 4 | WeatherNow CLI | Weather in terminal |
+| 🔜 5 | QuickImg | Image tool |
+| 🔜 7 | DevBio | README generator |
+| 🔜 8 | SubTracker | Subscription tracker |
+| 🔜 9 | OSS PR | Open source contribution |
 
 ---
 
@@ -98,6 +123,7 @@ goal: Get paid to write code
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maq2008)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/m.abdullah.exe)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maq2008@users.noreply.github.com)
 
 </div>
 
