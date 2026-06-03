@@ -73,14 +73,20 @@ goal: Get paid to write code
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=maq2008&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maq2008&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=maq2008&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maq2008&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="" />
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maq2008&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=maq2008&theme=tokyonight&hide_border=true&background=0D1117" alt="" />
+
+</div>
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maq2008&theme=tokyo-night&hide_border=true&area=true" alt="" />
 
 </div>
 
