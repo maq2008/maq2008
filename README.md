@@ -67,9 +67,7 @@ goal: Get paid to write code
 |---------|-------------|-------|--------|
 | **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, animated ring UI | PySide6, yt-dlp | ✅ Live |
 | **[YukiTimer](https://github.com/maq2008/YukiTimer/releases/latest)** | Pomodoro timer with session tracking | PySide6, SQLite | ✅ Live |
-| **YukiTasks** | Desktop to-do with focus mode | PySide6 | 🚧 Coming soon |
-| **YukiSnippets** | Code snippet manager | PySide6 | 🚧 Coming soon |
-| **More projects** | 10-day build challenge | Various | 🚧 In progress |
+| **More projects** | Coming soon | — | 🔜 |
 
 </div>
 
