@@ -86,16 +86,6 @@ goal: Get paid to write code
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-
-  ![Trophies](https://github-profile-trophy.vercel.app/?username=maq2008&theme=tokyonight&no-frame=true&column=4)
-
-</div>
-
----
-
 ## 🤝 Connect
 
 <div align="center">
@@ -109,8 +99,8 @@ goal: Get paid to write code
 
 <div align="center">
 
-**Code then Get Paid**
+**Code then Get Paid** 💸
 
-![Snake animation](https://raw.githubusercontent.com/maq2008/maq2008/output/github-contribution-grid-snake.svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=100&section=footer" />
 
 </div>
