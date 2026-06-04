@@ -13,7 +13,7 @@
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 ```yaml
 name: Abdullah Qureshi
@@ -33,7 +33,7 @@ goal: Earn well by building things people actually use
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -60,7 +60,7 @@ goal: Earn well by building things people actually use
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
@@ -74,7 +74,7 @@ goal: Earn well by building things people actually use
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
@@ -91,7 +91,7 @@ goal: Earn well by building things people actually use
 
 ---
 
-## 🤝 Connect
+##  Connect
 
 <div align="center">
 
