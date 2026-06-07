@@ -1,0 +1,138 @@
+name: Auto-Update Featured Projects
+
+on:
+  # Run every 6 hours to catch new/deleted repos
+  schedule:
+    - cron: '0 */6 * * *'
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+  # Run when workflow file itself changes
+  push:
+    paths:
+      - '.github/workflows/auto-featured.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-featured:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: 🤖 Update featured projects from public repos
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // ============================================
+            // ⚙️ CONFIG — Edit these to customize
+            // ============================================
+            const EXCLUDE_REPOS = [
+              'maq2008',          // Profile repo itself
+              // Add more repo names below to hide them
+              // 'old-project',
+              // 'test-repo',
+            ];
+            const MAX_ITEMS = 8;            // Max repos to show
+            const SORT_BY = 'stars';        // 'stars' | 'updated' | 'created'
+
+            core.info(`⚙️ Config: max=${MAX_ITEMS}, sort=${SORT_BY}, exclude=${EXCLUDE_REPOS.length} repos`);
+
+            // Fetch all public repos owned by the user
+            const repos = await github.paginate(
+              github.rest.repos.listForAuthenticatedUser,
+              {
+                visibility: 'public',
+                affiliation: 'owner',
+                per_page: 100,
+                sort: 'updated',
+                direction: 'desc'
+              }
+            );
+
+            core.info(`📦 Found ${repos.length} total public repos`);
+
+            // Filter out unwanted repos
+            const featured = repos
+              .filter(r =>
+                !r.fork &&
+                !r.archived &&
+                !r.disabled &&
+                !r.private &&
+                !EXCLUDE_REPOS.includes(r.name) &&
+                !r.name.startsWith('.') &&
+                r.name.toLowerCase() !== 'readme'
+              )
+              .sort((a, b) => {
+                if (SORT_BY === 'stars') return b.stargazers_count - a.stargazers_count;
+                if (SORT_BY === 'created') return new Date(b.created_at) - new Date(a.created_at);
+                return new Date(b.updated_at) - new Date(a.updated_at);
+              })
+              .slice(0, MAX_ITEMS);
+
+            core.info(`✨ Showing top ${featured.length} featured repos`);
+
+            if (featured.length === 0) {
+              core.warning('No featured repos found — skipping update');
+              return;
+            }
+
+            // Build markdown table
+            const rows = featured.map(r => {
+              const stack = (r.topics && r.topics.length > 0)
+                ? r.topics.slice(0, 3).map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(', ')
+                : (r.language || 'Various');
+              const desc = (r.description || 'No description available')
+                .replace(/\|/g, '\\|')
+                .replace(/\n/g, ' ')
+                .substring(0, 120);
+              const status = r.stargazers_count > 0 ? `⭐ ${r.stargazers_count}` : '🆕 New';
+              return `| **[${r.name}](${r.html_url})** | ${desc} | ${stack} | ${status} |`;
+            }).join('\n');
+
+            const newTable = `| Project | Description | Stack | Status |\n|---------|-------------|-------|--------|\n${rows}`;
+
+            // Update README between markers
+            const fs = require('fs');
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+
+            const startMarker = '<!-- FEATURED_PROJECTS:START -->';
+            const endMarker = '<!-- FEATURED_PROJECTS:END -->';
+
+            if (!readme.includes(startMarker) || !readme.includes(endMarker)) {
+              core.setFailed(`❌ Markers not found in ${readmePath}. Please add:\n${startMarker}\n${endMarker}`);
+              return;
+            }
+
+            const oldSection = readme.match(
+              new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`)
+            )[0];
+
+            const newSection = `${startMarker}\n${newTable}\n${endMarker}`;
+
+            if (oldSection === newSection) {
+              core.info('✅ No changes needed — featured projects are already up to date');
+              return;
+            }
+
+            const newReadme = readme.replace(oldSection, newSection);
+            fs.writeFileSync(readmePath, newReadme);
+
+            core.info('📝 README updated with new featured projects');
+            core.info(`📊 Repos added: ${featured.map(r => r.name).join(', ')}`);
+
+      - name: 📤 Commit and push changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "✅ No changes detected — nothing to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🤖 chore: auto-update featured projects from public repos"
+          git push
+          echo "✅ Pushed updated README to profile repo"

@@ -66,12 +66,16 @@ goal: Earn well by building things people actually use
 
 <div align="center">
 
+<!-- FEATURED_PROJECTS:START -->
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
 | **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, animated ring UI | PySide6, yt-dlp | ✅ Live |
 | **[YukiTimer](https://github.com/maq2008/YukiTimer/releases/latest)** | Pomodoro timer with session tracking | PySide6, SQLite | ✅ Live |
 | **[PAPITA](https://github.com/maq2008/papita-restaurant-landing-page)** | Animated Chinese restaurant landing page with full menu, gallery & reservation form | HTML, Tailwind CSS, JS | ✅ Live |
 | **More projects** | Building daily — follow to stay updated | — | 🚧 |
+<!-- FEATURED_PROJECTS:END -->
+
+> 🤖 *Section auto-updates every 6 hours via GitHub Action — add new repos & they appear here automatically!*
 
 </div>
 
