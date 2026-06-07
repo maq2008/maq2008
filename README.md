@@ -41,6 +41,8 @@ goal: Earn well by building things people actually use
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Frameworks & Tools
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -68,7 +70,8 @@ goal: Earn well by building things people actually use
 |---------|-------------|-------|--------|
 | **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, animated ring UI | PySide6, yt-dlp | ✅ Live |
 | **[YukiTimer](https://github.com/maq2008/YukiTimer/releases/latest)** | Pomodoro timer with session tracking | PySide6, SQLite | ✅ Live |
-| **More projects** | Coming soon | — | 🔜 |
+| **[PAPITA](https://github.com/maq2008/papita-restaurant-landing-page)** | Animated Chinese restaurant landing page with full menu, gallery & reservation form | HTML, Tailwind CSS, JS | ✅ Live |
+| **More projects** | Building daily — follow to stay updated | — | 🚧 |
 
 </div>
 
