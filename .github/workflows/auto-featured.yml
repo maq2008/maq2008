@@ -135,7 +135,18 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Pull latest changes to avoid race conditions on concurrent runs
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || git pull --rebase origin "${GITHUB_REF_NAME}" || true
+
+          # Re-stage after rebase in case of conflicts
           git add README.md
+
+          if git diff --staged --quiet; then
+            echo "✅ No staged changes after rebase — skipping"
+            exit 0
+          fi
+
           git commit -m "🤖 chore: auto-update featured projects from public repos"
           git push
           echo "✅ Pushed updated README to profile repo"
