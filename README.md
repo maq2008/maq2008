@@ -67,7 +67,7 @@ goal: Earn well by building things people actually use
 <!-- FEATURED_PROJECTS:START -->
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[papita-restaurant-landing-page](https://github.com/maq2008/papita-restaurant-landing-page)** | PAPITA - Animated Chinese restaurant landing page built with HTML, Tailwind CSS & vanilla JS | HTML | 🆕 New |
+| **[PAPITA-CHINESE-RESTAURANT-LANDING-PAGE](https://github.com/maq2008/PAPITA-CHINESE-RESTAURANT-LANDING-PAGE)** | PAPITA - Animated Chinese restaurant landing page built with HTML, Tailwind CSS & vanilla JS | HTML | 🆕 New |
 | **[TIMER-APP](https://github.com/maq2008/TIMER-APP)** | Glassmorphism Pomodoro timer with session tracking - by maq2008 | Various | 🆕 New |
 | **[MUSIC-APP](https://github.com/maq2008/MUSIC-APP)** | A beautiful, ad-free desktop music player with glassmorphism UI. Native Python (PySide6) + YouTube streaming via yt-dlp. | Various | 🆕 New |
 | **[BootableUSB-Maker](https://github.com/maq2008/BootableUSB-Maker)** | A simple Windows batch script that makes a USB partition bootable from an ISO file while keeping other partitions and th | Batchfile | 🆕 New |
