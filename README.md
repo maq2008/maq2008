@@ -69,10 +69,10 @@ goal: Earn well by building things people actually use
 <!-- FEATURED_PROJECTS:START -->
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[YukiMusic](https://github.com/maq2008/YukiMusic/releases/latest)** | Ad-free YouTube music player, animated ring UI | PySide6, yt-dlp | ✅ Live |
-| **[YukiTimer](https://github.com/maq2008/YukiTimer/releases/latest)** | Pomodoro timer with session tracking | PySide6, SQLite | ✅ Live |
-| **[PAPITA](https://github.com/maq2008/papita-restaurant-landing-page)** | Animated Chinese restaurant landing page with full menu, gallery & reservation form | HTML, Tailwind CSS, JS | ✅ Live |
-| **More projects** | Building daily — follow to stay updated | — | 🚧 |
+| **[papita-restaurant-landing-page](https://github.com/maq2008/papita-restaurant-landing-page)** | PAPITA - Animated Chinese restaurant landing page built with HTML, Tailwind CSS & vanilla JS | HTML | 🆕 New |
+| **[YukiTimer](https://github.com/maq2008/YukiTimer)** | Glassmorphism Pomodoro timer with session tracking - by maq2008 | Various | 🆕 New |
+| **[YukiMusic](https://github.com/maq2008/YukiMusic)** | A beautiful, ad-free desktop music player with glassmorphism UI. Native Python (PySide6) + YouTube streaming via yt-dlp. | Various | 🆕 New |
+| **[BootableUSB-Maker](https://github.com/maq2008/BootableUSB-Maker)** | A simple Windows batch script that makes a USB partition bootable from an ISO file while keeping other partitions and th | Batchfile | 🆕 New |
 <!-- FEATURED_PROJECTS:END -->
 
 > 🤖 *Section auto-updates every 6 hours via GitHub Action — add new repos & they appear here automatically!*
