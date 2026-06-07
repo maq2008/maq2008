@@ -39,15 +39,18 @@ jobs:
 
             core.info(`⚙️ Config: max=${MAX_ITEMS}, sort=${SORT_BY}, exclude=${EXCLUDE_REPOS.length} repos`);
 
-            // Fetch all public repos owned by the user
+            // Fetch all public repos owned by the user (via public API — no extra scope needed)
+            const username = context.repo.owner;
+            core.info(`👤 Fetching public repos for: ${username}`);
+
             const repos = await github.paginate(
-              github.rest.repos.listForAuthenticatedUser,
+              github.rest.repos.listForUser,
               {
-                visibility: 'public',
-                affiliation: 'owner',
-                per_page: 100,
+                username: username,
+                type: 'owner',
                 sort: 'updated',
-                direction: 'desc'
+                direction: 'desc',
+                per_page: 100
               }
             );
 
