@@ -7,8 +7,6 @@
     <img src="https://img.shields.io/github/followers/maq2008?label=Followers&style=for-the-badge&color=6E40C9" alt="Followers" />
   </p>
 
-  <p><i>"Self-taught. Shipping fast. Building at night. One commit at a time."</i></p>
-
 </div>
 
 ---
