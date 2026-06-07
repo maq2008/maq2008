@@ -73,8 +73,6 @@ goal: Earn well by building things people actually use
 | **[BootableUSB-Maker](https://github.com/maq2008/BootableUSB-Maker)** | A simple Windows batch script that makes a USB partition bootable from an ISO file while keeping other partitions and th | Batchfile | 🆕 New |
 <!-- FEATURED_PROJECTS:END -->
 
-> 🤖 *Section auto-updates every 6 hours via GitHub Action — add new repos & they appear here automatically!*
-
 </div>
 
 ---
