@@ -17,7 +17,7 @@
 
 <div align="center" width="100%">
   
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=2800&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Im+From+Pakistan;Waste+My+Time+To+Save+Yours;Build+With+Focus+And+With+Love;Be+Welcome!"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=2800&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=I'm+From+Pakistan;Waste+My+Time+To+Save+Yours;Build+With+Focus+And+With+Love;Be+Welcome!"/>
 </div>
 
 <br>
