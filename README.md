@@ -8,7 +8,7 @@
 
 <div align="center">
   
-  <b>`プ ロ グ ラ マ`</b>
+  <b>`頑張れ 頑張れ`</b>
   <samp>
       <br>
       Hi there! I'm <b>maq2008</b>
