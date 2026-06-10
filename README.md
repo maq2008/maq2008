@@ -32,8 +32,8 @@
   <img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=maq2008&rank_icon=github&show_icons=true&theme=apprentice&count_private=true&bg_color=0d1117&border_color=d10000&title_color=d10000&text_color=c9d1d9">
   <img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=maq2008&layout=compact&theme=apprentice&count_private=true&bg_color=0d1117&border_color=d10000&title_color=d10000&text_color=c9d1d9">
   <br><br>
-  <img align="center" alt="Profile Details" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maq2008&theme=apprentice"/>
 </div>
+
 
 
 
